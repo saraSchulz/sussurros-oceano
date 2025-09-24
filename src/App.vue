@@ -1,10 +1,9 @@
 <script setup>
-import headerComponent from '@/components/headerComponent.vue';
-import footerComponent from './components/footerComponent.vue';
-import BannerHomeComponent from './components/home/bannerHomeComponent.vue'
-import selectHomeComponent from './components/home/selectHomeComponent.vue';
-import sobreComponent from './components/home/sobreComponent.vue';
-import maisSobreComponent from './components/home/maisSobreComponent.vue';
+import headerComponent from '@/components/HeaderComponent.vue';
+import footerComponent from '@/components/FooterComponent.vue';
+import bannerSobreNosComponent from './components/sobreNos/bannerSobreNosComponent.vue';
+import nossoObjetivoComponent from './components/sobreNos/nossoObjetivoComponent.vue';
+import nossaEquipeComponent from './components/sobreNos/nossaEquipeComponent.vue';
 </script>
 
 <template>
@@ -12,11 +11,9 @@ import maisSobreComponent from './components/home/maisSobreComponent.vue';
     <headerComponent />
   </header>
   <main>
-    <BannerHomeComponent />
-    <selectHomeComponent />
-    <sobreComponent />
-    mai
-    <maisSobreComponent />
+    <bannerSobreNosComponent/>
+    <nossoObjetivoComponent/>
+    <nossaEquipeComponent/>
   </main>
   <footer>
     <footerComponent />
