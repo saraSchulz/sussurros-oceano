@@ -13,7 +13,7 @@
   min-height: 100vh;
   width: 100%;
   position: relative;
-  box-shadow: 0 0 75px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
 
   video{
     width: 100%;
