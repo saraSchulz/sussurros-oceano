@@ -2,7 +2,7 @@
 </script>
 <template>
   <section class="banner">
-    <video autoplay muted loop playsinline src="/public/videos/fundo-Home.mp4"></video>
+    <video autoplay muted loop playsinline src="/public/videos/fundo-home.mp4"></video>
     <H2>
       Sussurros do Oceano...
     </H2>
