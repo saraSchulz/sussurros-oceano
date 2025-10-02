@@ -4,18 +4,24 @@
   <section class="select">
     <ul>
       <li>
-        <i class="mdi mdi-tsunami"></i>
-        Exemplo
-      </li>
-      <img src="/public/Line-1.png" alt="line">
-      <li>
-        <i class="mdi mdi-fish"></i>
-        Exemplo
-      </li>
-      <img src="/public/Line-1.png" alt="line">
-      <li>
+        <routerLink to="/Fauna-Marinha">
         <i class="mdi mdi-jellyfish"></i>
-        Exemplo
+        Fauna Marinha
+        </routerLink>
+      </li>
+      <img src="/public/Line-1.png" alt="line">
+      <li>
+        <routerLink to="/poluicao">
+        <i class="mdi mdi-weather-dust"></i>
+        Poluição
+        </routerLink>
+      </li>
+      <img src="/public/Line-1.png" alt="line">
+      <li>
+        <routerLink to="/Contribuir">
+        <i class="mdi mdi-recycle"></i>
+        Contribuir
+        </routerLink>
       </li>
     </ul>
   </section>
@@ -35,6 +41,10 @@
       font-size: 2rem;
       text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
       color: #000000;
+      & a{
+        text-decoration: none;
+         color: #000000;
+      }
     }
     & img {
       height: 70px;

@@ -73,6 +73,9 @@ function voltar() {
         <p v-if="membroSelecionado.github"> <b>Github:</b> {{ membroSelecionado.github }} </p>
       </div>
     </div>
+    <div class="space">
+
+    </div>
   </section>
 </template>
 <style scoped>
@@ -198,6 +201,9 @@ function voltar() {
         text-align: center;
       }
     }
+  }
+  & .space {
+    padding: 100px;
   }
 }
 </style>

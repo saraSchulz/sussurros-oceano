@@ -26,7 +26,24 @@
               <i class="mdi mdi-home"></i> Home
             </RouterLink>
           </li>
-
+          <li>
+        <routerLink to="/Fauna-Marinha">
+        <i class="mdi mdi-jellyfish"></i>
+        Fauna Marinha
+        </routerLink>
+      </li>
+      <li>
+        <routerLink to="/poluicao">
+        <i class="mdi mdi-weather-dust"></i>
+        Poluição
+        </routerLink>
+      </li>
+      <li>
+        <routerLink to="/Contribuir">
+        <i class="mdi mdi-recycle"></i>
+        Contribuir
+        </routerLink>
+      </li>
           <li>
             <RouterLink to="/equipe">
               <i class="mdi mdi-account-group"></i> Sobre nós
@@ -153,13 +170,14 @@ div.linha {
 
 .menu-list li {
   margin: 20px 0;
+
 }
 
-.menu-list routerlink {
+.menu-list  a {
   text-decoration: none;
   font-size: 1.5rem;
   color: #ffffff;
-  transition: color 0.3s ease;
+  transition: color 1s ease;
   display: flex;
   align-items: center;
   gap: 10px;
