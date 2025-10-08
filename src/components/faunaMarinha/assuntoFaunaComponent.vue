@@ -186,6 +186,7 @@ function voltar() {
         padding: 5px 20px;
         border-radius: 50px;
         margin: 10px;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
       }
 
       & button:hover {

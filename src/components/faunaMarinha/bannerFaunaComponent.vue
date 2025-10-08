@@ -4,7 +4,7 @@
   <section class="banner">
     <video autoplay muted loop playsinline src="/public/videos/fundo-fauna.mp4"></video>
     <H2>
-      Fauna marítima e a vida humana ...
+      Fauna marinha e a vida humana ...
     </H2>
   </section>
 </template>

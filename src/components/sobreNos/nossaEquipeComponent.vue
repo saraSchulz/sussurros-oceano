@@ -65,12 +65,12 @@ function voltar() {
         </ul>
       </div> <!-- Detalhes -->
       <div class="detalhes" v-if="membroSelecionado">
-        <button @click="voltar"> <i class="mdi mdi-menu-left"></i>Voltar</button>
         <p><img :src="membroSelecionado.foto" :alt="membroSelecionado.nome"></p>
         <h3>{{ membroSelecionado.nome }}</h3>
         <p><b>Email:</b> {{ membroSelecionado.email }}</p>
         <p><b>Turma:</b> {{ membroSelecionado.turma }}</p>
         <p v-if="membroSelecionado.github"> <b>Github:</b> {{ membroSelecionado.github }} </p>
+        <button @click="voltar"> <i class="mdi mdi-menu-left"></i>Voltar</button>
       </div>
     </div>
     <div class="space">
@@ -164,13 +164,16 @@ function voltar() {
       flex: 1;
       opacity: 1;
       transition: opacity 0.5s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
       & button {
         background-color: transparent;
         border: none;
         font-size: 20px;
         cursor: pointer;
-        margin-bottom: 20px;
+        margin: 20px;
         transition: transform 0.3s ease, background-color 0.3s ease;
         text-align: center;
         padding: 5px 20px;
