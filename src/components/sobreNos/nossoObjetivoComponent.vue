@@ -12,7 +12,7 @@
         <img src="/public/estrela-mar-com-pedacos-de-plastico.png" alt="estrala-mar-img">
       </p>
       <p class="text">
-        texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto  exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto  exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto
+        O objetivo deste trabalho é conscientizar sobre a importância da fauna marinha e os impactos da poluição nos oceanos, destacando ações que podem ser adotadas para reduzir os danos ambientais e promover a preservação dos ecossistemas marinhos.
       </p>
     </div>
   </section>

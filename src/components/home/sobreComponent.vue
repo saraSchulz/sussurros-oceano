@@ -62,7 +62,7 @@ onBeforeUnmount(() => {
       </div>
       <div class="text">
         <p>
-          texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exempla texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar texto exemplar
+          Os oceanos são fundamentais para a vida na Terra, pois regulam o clima, produzem grande parte do oxigênio e abrigam uma imensa diversidade de espécies. A fauna marinha tem papel essencial na alimentação, na economia e no equilíbrio ambiental, fornecendo recursos naturais e até substâncias usadas na medicina e na biotecnologia.
         </p>
 
       </div>

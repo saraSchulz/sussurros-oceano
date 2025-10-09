@@ -39,7 +39,7 @@
         </routerLink>
       </li>
       <li>
-        <routerLink to="/Contribuir">
+        <routerLink to="/Contribuicao">
         <i class="mdi mdi-recycle"></i>
         Contribuir
         </routerLink>

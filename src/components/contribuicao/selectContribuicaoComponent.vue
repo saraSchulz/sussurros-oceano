@@ -9,18 +9,16 @@
         Fauna Marinha
         </routerLink>
       </li>
-      <img src="/public/Line-1.png" alt="line">
+      <li>
+        <RouterLink to="/">
+          <i class="mdi mdi-home"></i>
+          Home
+        </RouterLink>
+      </li>
       <li>
         <routerLink to="/poluicao">
-        <i class="mdi mdi-weather-dust"></i>
-        Poluição
-        </routerLink>
-      </li>
-      <img src="/public/Line-1.png" alt="line">
-      <li>
-        <routerLink to="/Contribuicao">
-        <i class="mdi mdi-recycle"></i>
-        Contribuir
+          <i class="mdi mdi-weather-dust"></i>
+          Poluição
         </routerLink>
       </li>
     </ul>
@@ -41,11 +39,13 @@
       font-size: 2rem;
       text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
       color: #000000;
-      & a{
+
+      & a {
         text-decoration: none;
-         color: #000000;
+        color: #000000;
       }
     }
+
     & img {
       height: 70px;
       align-self: center;
@@ -53,4 +53,3 @@
   }
 }
 </style>
-2

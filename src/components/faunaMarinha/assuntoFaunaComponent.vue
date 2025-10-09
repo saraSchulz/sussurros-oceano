@@ -41,8 +41,8 @@ const topicos = [
   },
 ];
 
-function selecionarMembro(membro) {
-  topicoSelecionado.value = membro;
+function selecionarTopico(topico) {
+  topicoSelecionado.value = topico;
 }
 
 function voltar() {
@@ -57,7 +57,7 @@ function voltar() {
     <div class="informacoes">
       <div class="lista" :class="{ ativo: topicoSelecionado }">
         <ul>
-          <li v-for="m in topicos" :key="m.title" @click="selecionarMembro(m)"
+          <li v-for="m in topicos" :key="m.title" @click="selecionarTopico(m)"
             :class="{ selecionado: topicoSelecionado?.title === m.title }">
             {{ m.title }}
 
@@ -175,6 +175,7 @@ function voltar() {
         text-align: center;
         margin: 10px;
       }
+
       & button {
         background-color: #E4F9FD;
         border: 1px solid #003450;

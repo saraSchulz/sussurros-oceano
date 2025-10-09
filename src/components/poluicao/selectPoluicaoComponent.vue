@@ -5,8 +5,8 @@
     <ul>
       <li>
         <routerLink to="/Fauna-Marinha">
-        <i class="mdi mdi-jellyfish"></i>
-        Fauna Marinha
+          <i class="mdi mdi-jellyfish"></i>
+          Fauna Marinha
         </routerLink>
       </li>
       <li>
@@ -16,7 +16,7 @@
         </RouterLink>
       </li>
       <li>
-        <routerLink to="/Contribuir">
+        <routerLink to="/contribuicao">
           <i class="mdi mdi-recycle"></i>
           Contribuir
         </routerLink>

@@ -1,7 +1,12 @@
 <script setup>
+import bannerContribuicao from '@/components/contribuicao/bannerContribuicaoComponent.vue';
+import selectContribuicao from '@/components/contribuicao/selectContribuicaoComponent.vue';
+import introContribuicao from '@/components/contribuicao/introContribuicaoComponent.vue';
+import assuntoContribuicao from '@/components/contribuicao/assuntoContribuicaoComponent.vue';
 </script>
 <template>
-
-  <h1> Formas de contribuir com o meio ambiente diminuindo a poluição </h1>
-  
+<bannerContribuicao/>
+<selectContribuicao/>
+<introContribuicao/>
+<assuntoContribuicao/>
 </template>

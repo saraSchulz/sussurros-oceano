@@ -7,39 +7,45 @@ const animando = ref(false);
 
 const topicos = [
   {
-    title: "Impacto do Plástico nos Oceanos ",
-    text1: "Impacto do Plástico nos Oceanos Milhões de toneladas chegam ao mar todos os anos. Animais como tartarugas, aves e mamíferos sofrem ferimentos e até a morte.",
-    text2: "Resíduos viram microplásticos, entram na cadeia alimentar e afetam humanos.",
-    text3: "Essa poluição ameaça a biodiversidade, degrada habitats e gera custos de limpeza.",
+    title: "Redusa o uso de plasticos ",
+    text1: "Substitua descartáveis por sacolas reutilizáveis, garrafas térmicas e talheres pessoais.",
+    text2: "Prefira produtos a granel e embalagens retornáveis.",
+    text3: "Ajuda a evitar microplásticos que poluem rios e oceanos.",
+    mdi : "mdi mdi-cancel"
   },
   {
-    title: "Derrammento de Petróleo",
-    text1: "Bloqueia a luz solar e prejudica a fotossíntese.",
-    text2: "Causa a morte de aves e mamíferos marinhos.",
-    text3: "Polui a cadeia alimentar e afeta comunidades pesqueiras e turísticas. Os custos de limpeza e indenizações são altíssimos.",
+    title: "Recicle e Reutilize",
+    text1: "Apoie a coleta seletiva e programas de retorno de embalagens.",
+    text2: "Transforme resíduos em novos produtos.",
+    text3: "Fortalece a economia circular e gera empregos.",
+    mdi : "mdi mdi-recycle-variant"
   },
   {
-    title: "Poluição Química e Metais pesados",
-    text1: " Resíduos de indústrias, agricultura e esgoto contaminam os mares.",
-    text2: "Metais pesados acumulam-se nos animais, reduzindo fertilidade e aumentando a mortalidade.",
-    text3: "O consumo de peixes contaminados gera doenças neurológicas em humanos. A eutrofização causa a morte em massa de peixes.",
+    title: "Participe de Limpezas",
+    text1: "Mutirões em praias e rios removem plásticos e redes de pesca.",
+    text2: "Promove educação ambiental e engajamento comunitário.",
+    text3: "Atitudes simples com impacto direto na vida marinha.",
+    mdi : "mdi mdi-beach"
   },
   {
-    title: "Aquecimento global e Acidificação",
-    text1: " Aquecimento da água provoca o branqueamento dos corais. Altera a migração de peixes e mamíferos, prejudicando a pesca.",
-    text2: "O derretimento das calotas eleva o nível do mar.",
-    text3: "A acidificação ameaça organismos calcários e impacta a produção de oxigênio.",
+    title: "Educação e Conscientização",
+    text1: "Escolas: ensino sobre reciclagem e preservação.",
+    text2: "Comunidades: hortas urbanas, coleta seletiva, campanhas.",
+    text3: "Empresas: incentivo a práticas sustentáveis.",
+    mdi : "mdi mdi-book-open-page-variant"
   },
   {
-    title: "Perda de Biodiversidade",
-    text1: "Nos últimos 40 anos, a biodiversidade marinha caiu cerca de 50%.",
-    text2: "Populações de peixes reduziram até 75%",
-    text3: "  Recifes de corais perderam 34% de sua extensão. É urgente proteger ecossistemas e reduzir poluição e emissões.",
+    title: "Políticas Públicas",
+    text1: "Leis que limitam ou proíbem descartáveis.",
+    text2: "Responsabilidade das empresas sobre seus resíduos.",
+    text3: "Investimento em coleta, reciclagem e proteção marinha.",
+    mdi : "mdi mdi-bank-outline"
   },
 ];
 
 function selecionarTopico(topico) {
   if (animando.value) return;
+
 
   if (topicoSelecionado.value?.title === topico.title) {
     topicoSelecionado.value = null;
@@ -64,7 +70,7 @@ function selecionarTopico(topico) {
 <template>
   <section class="assuntoFauna">
     <div class="titulo">
-      <h2>Saiba mais sobre:</h2>
+      <h2>Formas de ajudar</h2>
     </div>
 
     <div class="informacoes">
@@ -72,7 +78,7 @@ function selecionarTopico(topico) {
         <ul>
           <li v-for="m in topicos" :key="m.title" @click="selecionarTopico(m)"
             :class="{ selecionado: topicoSelecionado?.title === m.title }">
-            <div class="titulo-item">{{ m.title }}</div>
+            <div class="titulo-item"><i :class="m.mdi"></i>{{ m.title }}</div>
 
 
             <transition name="slide-fade">
@@ -113,7 +119,6 @@ function selecionarTopico(topico) {
     background: #fff;
     box-shadow: 10px 10px 75px rgba(0, 0, 0, 0.8);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 50px 0;
@@ -131,12 +136,14 @@ function selecionarTopico(topico) {
         list-style: none;
         padding: 20px;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         margin: 0 2rem;
 
         & li {
           font-size: 30px;
-          margin: 15px 0;
+          margin: 15px 30px;
           padding: 15px 30px;
           border-radius: 20px;
           background-color: rgba(144, 224, 239, 0.3);
@@ -150,7 +157,7 @@ function selecionarTopico(topico) {
 
         & li:hover {
           transform: scale(1.02);
-          background-color: rgba(0, 52, 80, 0.2);
+          background-color: rgba(0, 94, 97, 0.527);
         }
 
         & li.selecionado {
@@ -159,12 +166,16 @@ function selecionarTopico(topico) {
 
         .titulo-item {
           color: #000;
+          margin: 5px;
+          & i{
+            margin: 0 10px;
+          }
         }
       }
     }
 
     .conteudo {
-      font-size: 18px;
+      font-size: 20px;
       color: #000;
       text-align: center;
 

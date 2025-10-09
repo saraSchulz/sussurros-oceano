@@ -6,18 +6,24 @@
       <ul>
         <p>Redes Sociais:</p>
         <li>
+          <a href="https://www.instagram.com/sussuros.do.oceano/">
           <i class="mdi mdi-instagram"></i>
-          @SussurrosDoOceano
+          @Sussurros.do.oceano
+          </a>
         </li>
         <li>
+          <a href="https://www.facebook.com/profile.php?id=61581676725363">
           <i class="mdi mdi-facebook"></i>
           Sussurros do Oceano
+          </a>
         </li>
       </ul>
       <div class="central">
         <div class="logoFooter">
+          <RouterLink to="/">
           <img src="/public/logo.png" alt="logo" class="logo" />
           sussurros do oceano
+        </RouterLink>
         </div>
         <div class="direitos">
           <p>&copy; Alguns direitos reservados<br />Sussurros do Oceano 2025.</p>
@@ -28,11 +34,11 @@
         <p>Contato:</p>
         <li>
           <i class="mdi mdi-email"></i>
-          sussurosdooceano@gmail.com
+          sussurros.do.oceano2025@gmail.com
         </li>
         <li>
           <i class="mdi mdi-phone-classic"></i>
-          (11) 99999-9999
+          +55 (47) 992067618
         </li>
       </ul>
     </div>
@@ -74,6 +80,7 @@ footer {
       text-align: center;
 
       & .logoFooter {
+        a{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -83,7 +90,7 @@ footer {
         & .logo {
           height: 60px;
         }
-
+        }
         & p {
           font-size: 20px;
         }
