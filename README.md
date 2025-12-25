@@ -19,7 +19,7 @@ O projeto foi criado dentro do *framwork vue*
 ## Redes sociais do projeto
 - [Instagram](https://www.instagram.com/sussuros.do.oceano/)
 - [facebook](https://www.facebook.com/profile.php?id=61581676725363)
-- [Email]([https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZbjWLVhSwWHdrnmmmptCfCMrTMSqrcbWRLrpzrbzZMwFtgRHCfrtNsxfVnTSvMkWpjlBB](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfnbRSxgmkdLtQrncZFrdMlhPXCqqZBWPtzPTxVZCkTcZmLjqRqJPclcRcVPRDMvLGvCnq)) *sussurros.do.oceano2025@gmail.com*
+- [Email](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfnbRSxgmkdLtQrncZFrdMlhPXCqqZBWPtzPTxVZCkTcZmLjqRqJPclcRcVPRDMvLGvCnq) *sussurros.do.oceano2025@gmail.com*
 
 ## **Contato Desenvolvedores e pesquisadores**
 - Heloisa Pereira *Heloisapereira1402@gmail.com* **Pesquisadora**
