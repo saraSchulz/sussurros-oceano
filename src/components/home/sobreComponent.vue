@@ -2,10 +2,10 @@
 import { ref, onMounted, onBeforeUnmount } from "vue";
 
 const images = [
-  "/public/carrossel/img-01.png",
-  "/public/carrossel/img-02.png",
-  "/public/carrossel/img-03.png",
-  "/public/carrossel/img-04.png",
+  "/carrossel/img-01.png",
+  "/carrossel/img-02.png",
+  "/carrossel/img-03.png",
+  "/carrossel/img-04.png",
 ];
 
 const index = ref(0);

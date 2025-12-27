@@ -5,34 +5,34 @@ const membroSelecionado = ref(null);
 
 const membros = [
   {
-    foto: "public/fotoMembros/heloisaPereira.png",
+    foto: "/fotoMembros/heloisaPereira.png",
     nome: "Heloisa Pereira",
     email: "Heloisapereira1402@gmail.com",
     turma: "1agro3",
   },
   {
-    foto: "public/fotoMembros/lucidreyBonilla.png",
+    foto: "/fotoMembros/lucidreyBonilla.png",
     nome: "Lucidrey Bonilla",
     email: "lucidreymaitab.ifc@gmail.com",
     turma: "2info2",
     github: "Lucidrey",
   },
   {
-    foto: "public/fotoMembros/robertaRibeiro.png",
+    foto: "/fotoMembros/robertaRibeiro.png",
     nome: "Roberta Ribeiro",
     email: "robertaapbeta2212@gmail.com",
     turma: "2info2",
     github: "roberta2212",
   },
   {
-    foto: "public/fotoMembros/saraSchulz.png",
+    foto: "/fotoMembros/saraSchulz.png",
     nome: "Sara Schulz",
     email: "Sara.ifc2024@gamil.com",
     turma: "2info2",
     github: "saraschulz",
   },
   {
-    foto: "public/fotoMembros/vitorVerplotz.png",
+    foto: "/fotoMembros/vitorVerplotz.png",
     nome: "Vitor Verplotz",
     email: "vitoremanuelsilvaverplotz2007@gmail.com",
     turma: "2info2",
@@ -98,7 +98,7 @@ function voltar() {
   & .equipe {
     min-height: 90vh;
     width: 100%;
-    background: url("/public/fundo.png") no-repeat center center/cover;
+    background: url("/fundo.png") no-repeat center center/cover;
     box-shadow: 0 0 75px rgba(0, 0, 0, 0.8);
     display: flex;
     align-items: center;

@@ -45,11 +45,6 @@
         color: #000000;
       }
     }
-
-    & img {
-      height: 70px;
-      align-self: center;
-    }
   }
 }
 </style>

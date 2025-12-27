@@ -21,7 +21,7 @@
       <div class="central">
         <div class="logoFooter">
           <RouterLink to="/">
-          <img src="/public/logo.png" alt="logo" class="logo" />
+          <img src="/logo.png" alt="logo" class="logo" />
           sussurros do oceano
         </RouterLink>
         </div>

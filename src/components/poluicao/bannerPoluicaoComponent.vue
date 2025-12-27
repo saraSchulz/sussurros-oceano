@@ -2,7 +2,7 @@
 </script>
 <template>
   <section class="banner">
-    <video autoplay muted loop playsinline src="/public/videos/fundo-poluicao.mp4"></video>
+    <video autoplay muted loop playsinline src="/videos/fundo-poluicao.mp4"></video>
     <H2>
       Poluição marinha e a vida humana ...
     </H2>

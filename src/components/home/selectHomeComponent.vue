@@ -9,14 +9,14 @@
         Fauna Marinha
         </routerLink>
       </li>
-      <img src="/public/Line-1.png" alt="line">
+      <img src="/Line-1.png" alt="line">
       <li>
         <routerLink to="/poluicao">
         <i class="mdi mdi-weather-dust"></i>
         Poluição
         </routerLink>
       </li>
-      <img src="/public/Line-1.png" alt="line">
+      <img src="/Line-1.png" alt="line">
       <li>
         <routerLink to="/Contribuicao">
         <i class="mdi mdi-recycle"></i>

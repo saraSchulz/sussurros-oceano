@@ -6,7 +6,7 @@
       A poluição e as atividades humanas prejudicam os ecossistemas marinhos. Plásticos, petróleo e produtos químicos ameaçam espécies e a vida das pessoas. É preciso conscientizar e preservar os oceanos.
     </p>
     <p class="img">
-      <img src="/public/tartaruga.png" alt="img-tartaruga">
+      <img src="/tartaruga.png" alt="img-tartaruga">
     </p>
   </section>
 </template>

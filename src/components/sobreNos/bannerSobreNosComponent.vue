@@ -2,11 +2,11 @@
 </script>
 <template>
   <section class="banner">
-    <video autoplay muted loop playsinline src="/public/videos/fundo-SobreNos.mp4"></video>
+    <video autoplay muted loop playsinline src="/videos/fundo-SobreNos.mp4"></video>
     <H2>
       Sobre Nós...
     </H2>
-    
+
   </section>
 </template>
 <style scoped>

@@ -2,7 +2,7 @@
 </script>
 <template>
   <section class="banner">
-    <video autoplay muted loop playsinline src="/public/videos/fundo-contribuir.mp4"></video>
+    <video autoplay muted loop playsinline src="/videos/fundo-contribuir.mp4"></video>
     <H2>
       Ajude a contribuir...
     </H2>
